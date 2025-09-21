@@ -44,6 +44,12 @@ On the back side there are connectors available to supply the PCB with 24V, 3.3v
 
 
 ### 3D printed Parts
+Using the OnShape CAD tool several 3D pieces were designed, that later were 3d printed. The pieces include a holder for the BLDC Motor to keep it in the middle; a holder for the display, a knob and a case to hide the electronic. Below is an exploded view of the internal pieces of the smartknob.
+
+<p align="center">
+   <img src="Sonstige/ExplodedView.png" alt="Exploded View" width="500" height="580" style="display:inline-block;" /><br>
+   <em>Figure 3: Internal Pieces </em>
+</p>
 
 ### Software
 
@@ -58,12 +64,7 @@ git clone https://github.com/LucasCanete/GermanSmartknob.git
 
 
 ### How To Use
-The Kitchenalarm has a **Rotary Encoder** that lets you configure the Minutes and Seconds through the encoder's rotation.
-1. Press the Rotary Encoder on the board to configure the Minutes and adjust it rotating the encoder 
-2. Press it once again to configure the Seconds and rotate it to adjust 
-3. Press the encoder one last time to activate the Timer with the Minutes and Seconds you configured in step 1 and step 2. The Timer will start counting down on the 7-Segment Display (To reset the countdown press the Encoder)
-4. When the Timer reaches 00:00 (on the Display) the buzzer on the Board will start beeping. Your pizza is ready. Press the Encoder once to stop the beeping
-5. The Kitchenalarm goes automatically to deep sleep if it is not given instructions. To wake it up just press the Encoder
+
 
 
 <p align="center">
