@@ -1,5 +1,5 @@
 # German Smartknob
-An ESP32-S3 based knob to control smart devices at home.
+An ESP32-S3 based knob to control smart devices at home. Based on Scott Bez's Smartknob: https://github.com/scottbez1/smartknob?tab=readme-ov-file. Adapted for the standard german wall socket.
 
 ## Table of Contents
 1. [About the Project](#about-the-project)
@@ -9,26 +9,28 @@ An ESP32-S3 based knob to control smart devices at home.
 5. [Project Status](#project-status)
 
 ## About the project
-Project i developed for my Bachelor Thesis. Based on Scott Bez's Smartknob: https://github.com/scottbez1/smartknob?tab=readme-ov-file. Adapted for the standard german wall socket.
+This project mechatronic project has three main parts. The first part consisted of the development of a PCB that could fit in the standard german wall socket and would control sensors, displays and a BLDC Motor. The second part consisted on 3d printed pieces to sustain the PCB on its place, allow BLDC rotation while keeping the touch display on its place. Finally the third part was the software, which tested that all sensors and actuators worked accordingly. The final product can be seen below. 
 <p align="center">
-<img src="images/exploded_view.png" alt="explodedview" width="500" height="700" style="display:inline-block;" />
+   <img src="Sonstige/fertige_smartknob.png" alt="smartknob" width="500" height="700" style="display:inline-block;" /><br>
+   <b>German Smartknob</b>
 </p>
 
 ## Features
-- ESP32-S3 based
+- ESP32-S3 based PCB
 - Input Voltage of up to 24V
-- Haptic Feedback with a BLDC-Motor
+- Haptic Feedback with a BLDC-Motor (Coming soon)
 - Touch Display
 - Brightness and Temperature Sensor
 - Audio speaker connectors
 
 ## Components
-| Component | Model  | Manufacturer  |
-|:--------|:------:|------:|
-| Microcontroller  | atmega168 | Microchip |
-| 7 Seg. Display  | Generic | - |
-| Rotary Encoder Module  | KY-040 | - |
-| Battery Charger  | BQ24090 | Texas Instruments |
+A summarized description of this products three main parts.
+### PCB
+
+### 3D printed Parts
+
+### Software
+
 
 ## Getting Started
 
@@ -54,4 +56,6 @@ The Kitchenalarm has a **Rotary Encoder** that lets you configure the Minutes an
 </p>
 
 ## Project Status
-Coming soon
+This project is still under development. Eventhough the first version was successful, improvements are still coming to the software side. Some of them are:
+- [ ] Full implementation of haptic feedback
+- [ ] Connection to smart devices over MQTT, home assistant, etc
