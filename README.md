@@ -27,8 +27,11 @@ This project mechatronic project has three main parts. The first part consisted 
 A summarized description of this products three main parts.
 ### PCB
 The PCB was designed to fit into the standard german wall socket. It has two sides. 
-On the front side there is a ring of RGB Leds for user feedback and at its center a magnetic encoder. The magnetic encoder is key to detect the rotation's direction of the BLDC Motor, that in this project is used as an input device, similar to a rotary encoder. The reason why a BLDC Motor was chosen and not a regular rotary encoder, is because with the first, through proper driver, it is possible to program the motor's torque and adjust it according to the user's use. Besides of this, at the sides of the Front-PCB there are sensors to detect the temperature, the room's brightness and also output audio via a speaker.
-On the back side there are connectors available to supply the PCB with 24V, 3.3v and extra outputs with I2C and CAN lines. The Display connector pads, the ESP32-S3, and the audio and bldc driver are also found on the back side of the PCB.
+
+On the front side (left image) there is a ring of RGB Leds for user feedback and at its center a magnetic encoder. The magnetic encoder is key to detect the rotation's direction of the BLDC Motor, that in this project is used as an input device, similar to a rotary encoder. The reason why a BLDC Motor was chosen and not a regular rotary encoder, is because with the first, through proper driver, it is possible to program the motor's torque and adjust it according to the user's use. Besides of this, at the sides of the Front-PCB there are sensors to detect the temperature, the room's brightness and also output audio via a speaker.
+
+On the back side (right image) there are connectors available to supply the PCB with 24V, 3.3v and extra outputs with I2C and CAN lines. The Display connector pads, the ESP32-S3, and the audio and bldc driver are also found on the back side of the PCB.
+
 Below the two faces of the PCB.
 
 
