@@ -36,8 +36,8 @@ Below the two faces of the PCB.
 
 
 <p align="center">
-   <img src="Sonstige/SmartKnob_3Dview.png" alt="Front side" width="500" height="520" style="display:inline-block; margin-right: 10px;" /> 
-   <img src="Sonstige/SmartKnob_Hinten3Dview.png" alt="Back side" width="500" height="520" style="display:inline-block;" />
+   <img src="Sonstige/SmartKnob_3Dview.png" alt="Front side" width="500" height="580" style="display:inline-block; margin-right: 10px;" />
+   <img src="Sonstige/SmartKnob_Hinten3Dview.png" alt="Back side" width="500" height="580" style="display:inline-block;" />
 </p>
 
 ### 3D printed Parts
@@ -65,6 +65,7 @@ The Kitchenalarm has a **Rotary Encoder** that lets you configure the Minutes an
 
 <p align="center">
    <img src="images/pizzaclock_pcb.jpeg" alt="Design" width="300" height="320" style="display:inline-block; margin-right: 10px;" /> 
+ 
    <img src="images/pizzaclock_case.jpeg" alt="kitchenalarm" width="300" height="350" style="display:inline-block;" />
 </p>
 
