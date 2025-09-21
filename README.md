@@ -33,8 +33,8 @@ Below the two faces of the PCB.
 
 
 <p align="center">
-   <img src="Sonstige/SmartKnob_3DView.png" alt="Front side" width="300" height="320" style="display:inline-block; margin-right: 10px;" /> 
-   <img src="Sonstige/SmartKnob_Hinten3DView.png" alt="Back side" width="300" height="350" style="display:inline-block;" />
+   <img src="Sonstige/SmartKnob_3Dview.png" alt="Front side" width="300" height="320" style="display:inline-block; margin-right: 10px;" /> 
+   <img src="Sonstige/SmartKnob_Hinten3Dview.png" alt="Back side" width="300" height="350" style="display:inline-block;" />
 </p>
 
 ### 3D printed Parts
