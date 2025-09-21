@@ -12,7 +12,7 @@ An ESP32-S3 based knob to control smart devices at home. Based on Scott Bez's Sm
 This project mechatronic project has three main parts. The first part consisted of the development of a PCB that could fit in the standard german wall socket and would control sensors, touch display and a BLDC Motor. The second part consisted on 3d printed pieces to sustain the PCB on its place, allow BLDC rotation while keeping the touch display on its place. Finally the third part was the software, which tested that all sensors and actuators worked accordingly. The final product can be seen below. 
 <p align="center">
    <img src="Sonstige/fertige_smartknob.png" alt="smartknob" width="500" height="700" style="display:inline-block;" /><br>
-   <b>German Smartknob</b>
+   <em>German Smartknob</em>
 </p>
 
 ## Features
@@ -28,17 +28,20 @@ A summarized description of this products three main parts.
 ### PCB
 The PCB was designed to fit into the standard german wall socket. It has two sides. 
 
-On the front side (left image) there is a ring of RGB Leds for user feedback and at its center a magnetic encoder. The magnetic encoder is key to detect the rotation's direction of the BLDC Motor, that in this project is used as an input device, similar to a rotary encoder. The reason why a BLDC Motor was chosen and not a regular rotary encoder, is because with the first, through proper driver, it is possible to program the motor's torque and adjust it according to the user's use. Besides of this, at the sides of the Front-PCB there are sensors to detect the temperature, the room's brightness and also output audio via a speaker.
-
-On the back side (right image) there are connectors available to supply the PCB with 24V, 3.3v and extra outputs with I2C and CAN lines. The Display connector pads, the ESP32-S3, and the audio and bldc driver are also found on the back side of the PCB.
-
-Below the two faces of the PCB.
-
+On the front side there is a ring of RGB Leds for user feedback and at its center a magnetic encoder. The magnetic encoder is key to detect the rotation's direction of the BLDC Motor, that in this project is used as an input device, similar to a rotary encoder. The reason why a BLDC Motor was chosen and not a regular rotary encoder, is because with the first, through proper driver, it is possible to program the motor's torque and adjust it according to the user's use. Besides of this, at the sides of the Front-PCB there are sensors to detect the temperature, the room's brightness and also output audio via a speaker.
 
 <p align="center">
-   <img src="Sonstige/SmartKnob_3Dview.png" alt="Front side" width="500" height="580" style="display:inline-block; margin-right: 10px;" />
-   <img src="Sonstige/SmartKnob_Hinten3Dview.png" alt="Back side" width="500" height="580" style="display:inline-block;" />
+   <img src="Sonstige/SmartKnob_3Dview.png" alt="Front side" width="500" height="580" style="display:inline-block; margin-right: 10px;" /><br>
+   <em>Figure 1: Front side PCB</em>
 </p>
+
+On the back side there are connectors available to supply the PCB with 24V, 3.3v and extra outputs with I2C and CAN lines. The Display connector pads, the ESP32-S3, and the audio and bldc driver are also found on the back side of the PCB.
+
+<p align="center">
+   <img src="Sonstige/SmartKnob_Hinten3Dview.png" alt="Back side" width="500" height="580" style="display:inline-block;" /><br>
+   <em>Figure 2: Backside PCB</em>
+</p>
+
 
 ### 3D printed Parts
 
