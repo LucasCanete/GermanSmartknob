@@ -52,7 +52,14 @@ Using the OnShape CAD tool several 3D pieces were designed, that later were 3d p
 </p>
 
 ### Software
+The software was built using the arduino libraries, for simplicities sake. The main goal of the software program was to demonstrate the correct functioning of the main features of the smartknob. Because of this, a small Manu was programmed in which 4 main features can be selected as options. With a tap on the touch display the option can be selected and the functioning of the feature can be demonstrated.
 
+The four menu options and what each of them does is represented with the diagram below:
+
+<p align="center">
+   <img src="Sonstige/Menükonzept.png" alt="Software Diagram" width="500" height="580" style="display:inline-block;" /><br>
+   <em>Figure 4: Software Diagram </em>
+</p>
 
 ## Getting Started
 
